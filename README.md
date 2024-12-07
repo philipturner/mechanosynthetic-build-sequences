@@ -136,9 +136,9 @@ The first build sequence used the DCB6-Ge tooltip, which holds carbon dimer feed
 
 <p align="center">
 &nbsp;
-  <img src="./Documentation/Figure_4a.jpg" width="44.7%">
+  <img src="./Documentation/Figure_4a.jpg" width="45.1%">
 &nbsp; &nbsp;
-  <img src="./Documentation/Figure_4b.jpg" width="45.3%">
+  <img src="./Documentation/Figure_4b.jpg" width="44.9%">
 &nbsp;
 </p>
 
