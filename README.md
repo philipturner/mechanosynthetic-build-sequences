@@ -14,6 +14,24 @@ December 7, 2024
 
 Atomically precise manufacturing procedures were studied for various materials, with the restriction to 3DOF actuators. GFN2-xTB enabled vastly greater simulation speeds than previous studies, while retaining qualitative accuracy in properties besides energy. A large combinatorial space of tooltip types and product materials was explored. Build sequence design relied heavily on automated caching and retrieval of simulation results. While diamond could not be built, aromatic and amorphous carbon could. Silicon mechanosynthesis expanded on previous theoretical studies and established an alternative method of completing the silicon unit cell. Silicon carbide was found to be a more thermodynamically viable material, with similar affinity for 6-membered ring formation. Finally, a silicon carbide tooltip was designed which could perform assisted replication. The study garnered several insights into experimentally accessible methods for building atomically precise products.
 
+## Contents
+
+[Abstract](#abstract)
+
+[Introduction](#introduction)
+
+[Methods and Materials](#methods-and-materials)
+
+[Results and Discussion](#results-and-discussion)
+
+&emsp;[Diamond](#diamond)
+
+&emsp;Silicon
+
+&emsp;Silicon Carbide
+
+Conclusion
+
 ## Introduction
 
 The ultimate goal of manufacturing is to build products with atomic precision. As of 2024, the dominant technique for manufacturing small objects is photolithography. Large, intricate chips are manufactured with ~50 nm transistor size (some details within the transistor have ~10 nm resolution). Although marketed as exponentially decreasing with time ("3 nm" and "2 nm" nodes), transistor density is no longer scaling exponentially. For example, the transistor count in four generations of Apple M-series chips increased linearly with time. Moore's Law has ended and we are still nowhere near the atomic level.
