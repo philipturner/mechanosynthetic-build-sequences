@@ -196,11 +196,23 @@ To solve the energetic infeasibility of Si mechanosynthesis, the author explored
 
 Lattice construction became not only energetically favorable in inverted mode, but favorable enough to form a thermodynamic cascade. Since C<sub>3</sub>Sn and Si<sub>3</sub>Si are similar in energy, the latter could be used to initiate a cascade. Si<sub>3</sub>Si can be charged in experiment by flowing disilane over an unpassivated silicon surface. Figures 7&ndash;8 illustrate the cascade for transferring SiH<sub>3</sub> feedstocks. Cascades were also established for carbon and hydrogen, which originate at tin tripods.
 
-</span></p><table class="c15"><tr class="c21"><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">Si</span><span class="c3 c7">3</span><span class="c3">Si-SiH</span><span class="c3 c7 c34">3</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">&rarr;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">CSi</span><span class="c3 c7">2</span><span class="c3">Si-SiH</span><span class="c34 c3 c7">3</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">&rarr;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">C</span><span class="c3 c7">3</span><span class="c3">Si-SiH</span><span class="c34 c3 c7">3</span></p></td></tr><tr class="c21"><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-2.43 eV</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1 c26"><span class="c0"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-2.58 eV</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1 c26"><span class="c0"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-3.10 eV</span></p></td></tr></table><p class="c33"><span class="c9">
+<div align="center">
+
+| Si<sub>3</sub>Si-SiH<sub>3</sub> | &rarr; | CSi<sub>2</sub>Si-SiH<sub>3</sub> | &rarr; | C<sub>3</sub>Si-SiH<sub>3</sub> |
+| :-: | :-: | :-: | :-: | :-: |
+| -2.43 eV |   | -2.58 eV |   | -3.10 eV |
+
+</div>
 
 <i><b>Figure 7.</b> Thermodynamic cascade for donating SiH<sub>3</sub> to a Si-bridgehead site on silicon carbide.</i>
 
-</span></p><table class="c15"><tr class="c21"><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">Si</span><span class="c3 c7">3</span><span class="c3">Si-SiH</span><span class="c3 c7">3</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">&rarr;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">CSi</span><span class="c3 c7">2</span><span class="c3">Si-SiH</span><span class="c3 c7">3</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">&rarr;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">Si</span><span class="c3 c7">3</span><span class="c3">C</span><span class="c3">-SiH</span><span class="c3 c7">3</span></p></td></tr><tr class="c21"><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-2.43 eV</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1 c26"><span class="c0"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-2.58 eV</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1 c26"><span class="c0"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-3.06 eV</span></p></td></tr></table><p class="c33"><span class="c9">
+<div align="center">
+
+| Si<sub>3</sub>Si-SiH<sub>3</sub> | &rarr; | CSi<sub>2</sub>Si-SiH<sub>3</sub> | &rarr; | Si<sub>3</sub>C-SiH<sub>3</sub> |
+| :-: | :-: | :-: | :-: | :-: |
+| -2.43 eV |   | -2.58 eV |   | -3.06 eV |
+
+</div>
 
 <i><b>Figure 8.</b> Thermodynamic cascade for donating SiH<sub>3</sub> to a C-bridgehead site on silicon carbide.</i>
 
@@ -208,13 +220,25 @@ A tool was designed to conduct the thermodynamic cascades for building SiC. It c
 
 The author designed two build sequences for the two AFM modes, each with ~90 reactions. Instead of simulating every step, the author employed binding energy tables and prior knowledge about the feedstocks' behaviors. This approach defeated the compute cost of simulating reactions. It was possible to make incremental revisions to each sequence, without simulating every reaction impacted by the revision. This capability shortened the development time and permitted analysis of relatively large products.
 
-</span></p><p class="c20"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 254.70px; height: 377.08px;"><img alt="" src="images/image7.jpg" style="width: 254.70px; height: 397.97px; margin-left: 0.00px; margin-top: -15.34px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 338.93px; height: 377.08px;"><img alt="" src="images/image4.jpg" style="width: 365.09px; height: 377.08px; margin-left: -26.16px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c20"><span class="c9">Figure 9.</span><span class="c29 c5">&nbsp;Left: structural components of the replicating tooltip. Right: the tooltip being used during a critical reaction in silicon carbide cage formation.</span></p><p class="c20 c22"><span class="c0">
+<p align="center">
+&nbsp;
+  <img src="./Documentation/Figure_9a.jpg" width="35.8%">
+&nbsp; &nbsp;
+  <img src="./Documentation/Figure_9b.jpg" width="54.2%">
+&nbsp;
+</p>
+
+<i><b>Figure 9.</b> Left: structural components of the replicating tooltip. Right: the tooltip being used during a critical reaction in silicon carbide cage formation.</i>
 
 The build sequences were specified in a text file resembling computer assembly language (Figure 10). Each reaction had various annotations, such as binding energy or approach trajectory. It was possible to analyze different subsections of the build sequence in isolation. Some repetitive steps (such as cage completion) could be represented with loops. The high level of abstraction was made possible by the spatial decoupling of SiC unit cells. Once a unit cell was built, its form had no impact on the cell after it. One could copy the steps for building one unit cell infinitely many times, and achieve a valid SiC lattice.
 
 In comparison, amorphous carbon did not permit such design automation. It has no unit cell, so every cage or ring impacts the placement of the remaining atoms. The nature of the impact is much more complex, and may not be representable analytically.
 
-</span></p><p class="c20"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 251.75px;"><img alt="" src="images/image1.jpg" style="width: 624.00px; height: 279.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c20"><span class="c9">
+<p align="center">
+&nbsp;
+  <img src="./Documentation/Figure_10.jpg" width="95%">
+&nbsp;
+</p>
 
 <i><b>Figure 10.</b> Screenshot of the two sequences being edited simultaneously. The imaged sequence is from early in the refinement process. The final revision annotated the starting and ending energy of each reaction. The added information made the final revision difficult to visualize in a screenshot, but it is available on the GitHub repository.</i>
 
