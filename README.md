@@ -20,7 +20,7 @@ Atomically precise manufacturing procedures were studied for various materials, 
 
 [Introduction](#introduction)
 
-[Methods and Materials](#methods-and-materials)
+[Materials and Methods](#materials-and-methods)
 
 [Results and Discussion](#results-and-discussion)
 
