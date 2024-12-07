@@ -70,7 +70,21 @@ Binding energies were primarily used to analyze different tools binding the same
 
 <i><b>Figure 2.</b> Thermodynamic cascade for methylene transfer, starting from germanium.</i>
 
+## Results and Discussion
 
+<div align="center">
+
+| Element | H        | C        | Si       | Ge       |
+| :------ | -------: | -------: | -------: | -------: |
+| H       | -5.33 eV |          |          |          |
+| C       | -5.29 eV | -5.27 eV |          |          |
+| Si      | -4.72 eV | -4.38 eV | -3.10 eV |          |
+| Ge      | -4.01 eV | -3.59 eV | -2.96 eV | -2.86 eV |
+| Sn      | -3.29 eV | -2.67 eV | -2.34 eV | -2.39 eV |
+
+</div>
+
+<i><b>Table 1.</b> Matrix of bond energies between the elements found in diamond-like materials. Bonds between group IV elements are based on the model system C<sub>3</sub>Si-SiH<sub>3</sub>. The two innermost atoms (silicons, in this case) are replaced with the matrix row and column. More positive energies indicate a weaker bond (e.g. Sn-H is weaker than C-H).</i>
 
 [^1]: Rudolph, M.; Carr, S. M.; Subramania, G.; Ten Eyck, G.; Dominguez, J.; Pluym, T.; Lilly, M. P.; Carroll, M. S.; Bussmann, E. (<b>2014</b>). Probing the limits of Si:P &delta;-doped devices patterned by a scanning tunneling microscope in a field-emission mode. <i>Applied Physics Letters, 105</i>(16), 163110. https://doi.org/10.1063/1.4899255
 
