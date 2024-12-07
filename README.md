@@ -48,13 +48,29 @@ Removal energy: E<sub>A</sub> + E<sub>B</sub> - E<sub>AB</sub> (typically positi
 
 The data from energy minimizations served two purposes: checking structural stability and comparing the energies of different structures. One could grossly perturb a structure and watch an animation of the minimization timesteps. Unstable structures would experience ruptures in covalent bonds, or changes in geometry indicating a change in hybridization. For example, a carbene diradical would easily insert into a nearby C-Si bond. Regarding energies, the most common use case was feedstock binding energy. Three structures were compiled and modeled as isolated systems: the charged tool (AB), the spent tool (A), and the dissociated feedstock (B). The binding energy (Equation 1) was the energy change when the latter two systems formed a covalent bond.
 
-Binding energies were primarily used to analyze different tools binding the same feedstock. For example, two exemplary thermodynamic cascades are shown (Figure 1, 2). During the tin cascade, methylene transfers from the Sn tool, to the Ge tool, to the Si tool. Each transition ends with the system in a lower-energy state. During the germanium cascade, the second transition has no net energy decrease. The germanium cascade is not thermodynamically favorable. One would conduct this analysis when deciding whether to use Sn tripods or Ge tripods to initiate a thermodynamic cascade.
+Binding energies were primarily used to analyze different tools binding the same feedstock. For example, two exemplary thermodynamic cascades are shown (Figures 1&ndash;2). During the tin cascade, methylene transfers from the Sn tool, to the Ge tool, to the Si tool. Each transition ends with the system in a lower-energy state. During the germanium cascade, the second transition has no net energy decrease. The germanium cascade is not thermodynamically favorable. One would conduct this analysis when deciding whether to use Sn tripods or Ge tripods to initiate a thermodynamic cascade.
 
-| C<sub>3</sub>Sn-CH<sub>2</sub>&middot; | &rarr; |   |   |   |
+<div align="center">
+
+| C<sub>3</sub>Sn-CH<sub>2</sub>&middot; | &rarr; | C<sub>3</sub>Ge-CH<sub>2</sub>&middot; | &rarr; | C<sub>3</sub>Si-CH<sub>2</sub>&middot; |
 | :-: | :-: | :-: | :-: | :-: |
-|   |   |   |   |   |
+| -3.70 eV |   | -4.72 eV |   | -5.36 eV |
 
-</span></p><table class="c15"><tr class="c21"><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">C</span><span class="c3 c7">3</span><span class="c3">Sn-CH</span><span class="c3 c7">2</span><span class="c0">&middot;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">&rarr;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">C</span><span class="c3 c7">3</span><span class="c3">Ge-CH</span><span class="c3 c7">2</span><span class="c0">&middot;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">&rarr;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">C</span><span class="c3 c7">3</span><span class="c3">Si-CH</span><span class="c3 c7">2</span><span class="c0">&middot;</span></p></td></tr><tr class="c21"><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-3.70 eV</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1 c26"><span class="c0"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-4.72 eV</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1 c26"><span class="c0"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-5.36 eV</span></p></td></tr></table><p class="c33"><span class="c9">Figure 1.</span><span class="c29 c5">&nbsp;Thermodynamic cascade for methylene transfer, starting from tin.</span></p><table class="c15"><tr class="c21"><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">C</span><span class="c3 c7">3</span><span class="c3">Ge-CH</span><span class="c3 c7">2</span><span class="c0">&middot;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">&rarr;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">C</span><span class="c3 c7">3</span><span class="c3">Si-CH</span><span class="c3 c7">2</span><span class="c0">&middot;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">&rarr;</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c3">C</span><span class="c3 c7">3</span><span class="c3">Si-CH</span><span class="c3 c7">2</span><span class="c0">&middot;</span></p></td></tr><tr class="c21"><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-4.72 eV</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1 c26"><span class="c0"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-5.36 eV</span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1 c26"><span class="c0"></span></p></td><td class="c18" colspan="1" rowspan="1"><p class="c1"><span class="c0">-5.36 eV</span></p></td></tr></table><p class="c33"><span class="c9">Figure 2.</span><span class="c5">&nbsp;Thermodynamic cascade for methylene transfer, starting from germanium.</span><hr style="page-break-before:always;display:none;"></p><p class="c25"><span class="c29 c4">
+</div>
+
+<i><b>Figure 1.</b> Thermodynamic cascade for methylene transfer, starting from tin.</i>
+
+<div align="center">
+
+| C<sub>3</sub>Ge-CH<sub>2</sub>&middot; | &rarr; | C<sub>3</sub>Si-CH<sub>2</sub>&middot; | &rarr; | C<sub>3</sub>Si-CH<sub>2</sub>&middot; |
+| :-: | :-: | :-: | :-: | :-: |
+| -4.72 eV |   | -5.36 eV |   | -5.36 eV |
+
+</div>
+
+<i><b>Figure 2.</b> Thermodynamic cascade for methylene transfer, starting from germanium.</i>
+
+
 
 [^1]: Rudolph, M.; Carr, S. M.; Subramania, G.; Ten Eyck, G.; Dominguez, J.; Pluym, T.; Lilly, M. P.; Carroll, M. S.; Bussmann, E. (<b>2014</b>). Probing the limits of Si:P &delta;-doped devices patterned by a scanning tunneling microscope in a field-emission mode. <i>Applied Physics Letters, 105</i>(16), 163110. https://doi.org/10.1063/1.4899255
 
