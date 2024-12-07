@@ -86,6 +86,26 @@ Binding energies were primarily used to analyze different tools binding the same
 
 <i><b>Table 1.</b> Matrix of bond energies between the elements found in diamond-like materials. Bonds between group IV elements are based on the model system C<sub>3</sub>Si-SiH<sub>3</sub>. The two innermost atoms (silicons, in this case) are replaced with the matrix row and column. More positive energies indicate a weaker bond (e.g. Sn-H is weaker than C-H).</i>
 
+The research resulted in four manually designed build sequences, each building a ~30 atom product with ~50 reactions. A total of 1,225 permutations of tripods were analyzed and stored in a large key-value cache (108 MB). With the atom coordinates of these tripods and several variants of the DCB6-Ge tooltip, the author generated 51 energy tables. The tables assisted in build sequence design and various feasibility analyses. Table 1 summarizes the tables used during research.
+
+While conducting the research, the author created 27,000 lines of Swift code. A large portion of the code was for compiling tips and setting up simulations. In addition, some tooltips and product structures were serialized as array literals in the source code. The author organized this code into a GitHub repository ([philipturner/bootstrapping-code-archive](https://github.com/philipturner/bootstrapping-code-archive)). The repository's overview contains the energy tables, formatted as GitHub Markdown.
+
+The author created multiple animations to illustrate tooltips and mechanosynthetic reactions. They are freely available and published on YouTube (Table 2).
+
+<div align="center">
+
+| Number | Link | Description |
+| :----: | ---- | ----------- |
+| 1 | [youtu.be/whvXCeEwlmI](https://youtu.be/whvXCeEwlmI) | DCB6-Ge tooltip successfully places a carbon dimer onto a build plate in the horizontal position. Then, it executes three additional reactions. |
+| 2 | [youtu.be/46iEIYD8eBE](https://youtu.be/46iEIYD8eBE) | Showcase of 52 tripod nano-tips, whose (molecular dynamics-like) trajectory for energy minimization was saved in a cache. Shows the unique atrane cage structure required for organotin tooltips. |
+| 3 | [youtu.be/lbxKyF2mLTQ](https://youtu.be/lbxKyF2mLTQ) | Playback of the 48 different reactions in a silicon build sequence. The reactions were individually debugged and collected in a cache over a ~5-day period. |
+
+</div>
+
+<i><b>Table 2.</b> Listing of the videos published as part of this research project.</i>
+
+
+
 [^1]: Rudolph, M.; Carr, S. M.; Subramania, G.; Ten Eyck, G.; Dominguez, J.; Pluym, T.; Lilly, M. P.; Carroll, M. S.; Bussmann, E. (<b>2014</b>). Probing the limits of Si:P &delta;-doped devices patterned by a scanning tunneling microscope in a field-emission mode. <i>Applied Physics Letters, 105</i>(16), 163110. https://doi.org/10.1063/1.4899255
 
 [^2]: Merkle, R. C.; Freitas, R. A. Jr.; Barton, J.; Hill, A.; Drew, M.; Allis, D.; Takatani, T.; McCallum, T.; Mamone, M.; Zindy, N.; Tanveer, K. (<b>2023</b>). Systems and methods for mechanosynthesis. <i>United States Patent and Trademark Office,</i> Patent No. 11708384B2. https://patents.google.com/patent/US11708384
