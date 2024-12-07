@@ -156,6 +156,8 @@ Although 2D graphene lattices could be formed, the intention was to build 3D str
 
 <i><b>Figure 5.</b> Product of the diamond build sequence, viewed from four different angles. The large triangular component is the remnant of the 33-carbon graphene nanoribbon.</i>
 
+<div align="center">
+
 | Reaction | Count | Proportion of Sequence |
 | :------- | ----: | ---------------------: |
 | HAbst            | 19          | 31%          |
@@ -165,6 +167,8 @@ Although 2D graphene lattices could be formed, the intention was to build 3D str
 | Rearrangement    | 2           | 3%           |
 | Total (Tilted\*) | 21&ndash;37 | 34&ndash;60% |
 | Total            | 62          | 100%         |
+
+</div>
 
 <i><b>Table 3.</b> Summary of the build sequence for diamond-like carbon. \*The tooltip had to be rotated away from pointing straight down. The number of tilted reactions was uncertain, as the hydrogen abstractions could not be directly simulated.</i>
 
