@@ -38,7 +38,7 @@ For energy minimizations, the FIRE algorithm was used. Its similarity to molecul
 
 <div align="center">
 
-Binding energy: E<sub>AB</sub> - E</sub>A</sub> - E<sub>B</sub> (typically negative)
+Binding energy: E<sub>AB</sub> - E<sub>A</sub> - E<sub>B</sub> (typically negative)
 
 Removal energy: E<sub>A</sub> + E<sub>B</sub> - E<sub>AB</sub> (typically positive)
 
