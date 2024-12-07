@@ -136,9 +136,9 @@ The first build sequence used the DCB6-Ge tooltip, which holds carbon dimer feed
 
 <p align="center">
 &nbsp;
-  <img src="./Documentation/Figure_4a.jpg" width="45%">
+  <img src="./Documentation/Figure_4a.jpg" width="44.7%">
 &nbsp; &nbsp;
-  <img src="./Documentation/Figure_4b.jpg" width="45%">
+  <img src="./Documentation/Figure_4b.jpg" width="45.3%">
 &nbsp;
 </p>
 
@@ -171,6 +171,24 @@ Although 2D graphene lattices could be formed, the intention was to build 3D str
 </div>
 
 <i><b>Table 3.</b> Summary of the build sequence for diamond-like carbon. \*The tooltip had to be rotated away from pointing straight down. The number of tilted reactions was uncertain, as the hydrogen abstractions could not be directly simulated.</i>
+
+### Silicon
+
+The first reaction taken for silicon mechanosynthesis was silylation of a Si bridgehead radical. A SiH<sub>3</sub> feedstock was mounted on a carbastannatrane tripod. As the tripod approached the silicon radical, the SiH<sub>3</sub> adopted the trigonal pyramidal configuration, reminiscent of an expanded octet. Upon retraction, the SiH<sub>3</sub> remained on the Si(111) surface. This reaction had a very small energy change of -0.09 eV. It only proceeded in the forward direction when the tool approached slowly. After designing the build sequence, it was discovered that the C<sub>3</sub>Sn-SiH<sub>3</sub> tool cannot be synthesized experimentally. No tooltip reported in the chemical literature had the correct binding energy to silylate a Si(111) surface.
+
+<p align="center">
+&nbsp;
+  <img src="./Documentation/Figure_6a.jpg" width="47.3%">
+&nbsp; &nbsp;
+  <img src="./Documentation/Figure_6b.jpg" width="42.7%">
+&nbsp;
+</p>
+
+<i><b>Figure 6.</b> The 48 tripod nano-tips for the silicon build sequence. Left: 8 x 6 grid arrangement of the tripods. Right: close-up perspective view. The tripods are shown on a partially-hydrogenated partially-chlorinated silicon surface (white atoms are hydrogen, green atoms are chlorine). The linkers binding the tripods to the surface were omitted from the render.</i>
+
+Two silyl groups on the Si(111) surface were made to bond together, forming a 5-membered ring. The process encountered a failure mode dubbed &ldquo;hydrogen stealing&rdquo;, where two SiH</span><span class="c3 c7">2</span><span class="c3">&nbsp;</span><span class="c3">monoradicals</span><span class="c3">&nbsp;exchange hydrogens. One ends up as SiH: and the other as SiH</span><span class="c3 c7">3</span><span class="c3">. Which one is the diradical is nondeterministic. The failure mode reflects the high stability of the silicon diradical, compared to the carbon diradical. Another property of SiH: was slicing open a Si-Si bond. The SiH: feedstock could break open 5-membered rings and insert itself, forming a 6-membered ring. Compared to diamond, it was relatively easy to form 6-membered rings and perfect crystal lattices. Later inspection revealed that SiH: would likely insert into a C-Sn bond in the feedstock holder. Therefore, the feedstock is not physically plausible.
+
+The above procedures were applied repeatedly to form a product with four fused adamantane cages. While designing the build sequence, each step was saved in a cache. One could rewind to an earlier step and try an entirely different set of reactions, to prevent a pathological chemical site from forming. Each reaction was addressed by a number (the position in the sequence) and a letter (the branch). Since silicon atoms have nine orbitals in xTB (compared to four for carbon), the number of orbitals grew relatively fast with product size. The build sequence was terminated prematurely due to excessive compute cost. To review the sequence, the tool for each step was compiled and placed onto a surface (Figure 6). Each step was loaded from the cache and played in order.
 
 [^1]: Rudolph, M.; Carr, S. M.; Subramania, G.; Ten Eyck, G.; Dominguez, J.; Pluym, T.; Lilly, M. P.; Carroll, M. S.; Bussmann, E. (<b>2014</b>). Probing the limits of Si:P &delta;-doped devices patterned by a scanning tunneling microscope in a field-emission mode. <i>Applied Physics Letters, 105</i>(16), 163110. https://doi.org/10.1063/1.4899255
 
