@@ -113,7 +113,9 @@ The first build sequence used the DCB6-Ge tooltip, which holds carbon dimer feed
 <i><b>Figure 3.</b> Space-filling render of the DCB6-Ge tooltip. Germanium atoms are green, carbons are gray, and hydrogens are white. The tool is embedded in a ~20-atom cluster model of a diamond lattice. The carbon dimer is the pair of carbons directly below the germanium atoms, which are not connected to any hydrogens.</i>
 
 <p align="center">
-  <img src="./Documentation/Figure_3.jpg">
+&nbsp;
+  <img src="./Documentation/Figure_3.jpg" width="95%">
+&nbsp;
 </p>
 
 <i><b>Figure 3.</b> Space-filling render of the DCB6-Ge tooltip. Germanium atoms are green, carbons are gray, and hydrogens are white. The tool is embedded in a ~20-atom cluster model of a diamond lattice. The carbon dimer is the pair of carbons directly below the germanium atoms, which are not connected to any hydrogens.</i>
