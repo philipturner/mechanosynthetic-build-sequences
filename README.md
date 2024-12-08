@@ -26,11 +26,11 @@ Atomically precise manufacturing procedures were studied for various materials, 
 
 &emsp;[Diamond](#diamond)
 
-&emsp;Silicon
+&emsp;[Silicon](#silicon)
 
-&emsp;Silicon Carbide
+&emsp;[Silicon Carbide](#silicon-carbide)
 
-Conclusion
+[Conclusion](#conclusion)
 
 ## Introduction
 
@@ -241,6 +241,10 @@ In comparison, amorphous carbon did not permit such design automation. It has no
 </p>
 
 <i><b>Figure 10.</b> Screenshot of the two sequences being edited simultaneously. The imaged sequence is from early in the refinement process. The final revision annotated the starting and ending energy of each reaction. The added information made the final revision difficult to visualize in a screenshot, but it is available on the GitHub repository.</i>
+
+## Conclusion
+
+The simulations of atom-by-atom manufacturing confirmed Herman's claims about the ease of building silicon. However, the required feedstocks could not be presented on Sn tripods. It was discovered that CH<sub>2</sub>&middot; can take the place of SiH:, promoting 5-membered rings into unit cells that tile in 3D space. Thus, silicon carbide was the most favorable material for automating build sequence generation. With the ability to automate design and make high-level abstractions, the author designed a replicating product. It contained 23 group IV atoms, several orders of magnitude smaller than any living organism. This result suggests that experimentally accessible scanning probe hardware can make a device with basic replication capabilities. The simulations also suggest that diamond cannot be built with a 3DOF nanopositioner. The crystal unit cell cannot be formed, so the product is amorphous. However, with a human-driven feedback loop (without automation), large amorphous structures may be formed. This poses an interesting possibility, that atomically precise products can be built without any forward planning or computer simulation.
 
 [^1]: Rudolph, M.; Carr, S. M.; Subramania, G.; Ten Eyck, G.; Dominguez, J.; Pluym, T.; Lilly, M. P.; Carroll, M. S.; Bussmann, E. (<b>2014</b>). Probing the limits of Si:P &delta;-doped devices patterned by a scanning tunneling microscope in a field-emission mode. <i>Applied Physics Letters, 105</i>(16), 163110. https://doi.org/10.1063/1.4899255
 
